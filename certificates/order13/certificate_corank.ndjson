@@ -1,0 +1,24 @@
+{"id":0,"actual_scaled":0,"corank_primitive":[0,353792,0,-11184128,0,71867136,0,-191431680,0,250145280,0,-159667200,0,39916800]}
+{"id":1,"actual_scaled":0,"corank_primitive":[0,22368256,0,-309836800,0,1436058624,0,-3149752320,0,3597834240,0,-2075673600,0,479001600]}
+{"id":2,"actual_scaled":0,"corank_primitive":[0,0,0,26,0,-78,0,-636,0,2627,0,-3187,0,1248]}
+{"id":3,"actual_scaled":0,"corank_primitive":[0,0,0,0,0,2,0,-125,0,555,0,-756,0,324]}
+{"id":4,"actual_scaled":0,"corank_primitive":[0,0,0,0,0,0,0,-29,0,158,0,-237,0,108]}
+{"id":5,"actual_scaled":0,"corank_primitive":[0,0,0,0,0,-36,0,-118,0,902,0,-1324,0,576]}
+{"id":6,"actual_scaled":0,"corank_primitive":[0,0,0,4,0,-38,0,-192,0,1091,0,-1489,0,624]}
+{"id":7,"actual_scaled":0,"corank_primitive":[0,0,0,0,0,-19,0,0,0,219,0,-376,0,176]}
+{"id":8,"actual_scaled":0,"corank_primitive":[0,0,0,0,0,17,0,-271,0,959,0,-1191,0,486]}
+{"id":9,"actual_scaled":0,"corank_primitive":[0,0,0,0,0,2,0,-46,0,201,0,-283,0,126]}
+{"id":10,"actual_scaled":0,"corank_primitive":[0,0,0,0,0,0,0,-6,0,80,0,-154,0,80]}
+{"id":11,"actual_scaled":0,"corank_primitive":[0,0,0,10,0,199,0,-2440,0,6943,0,-7448,0,2736]}
+{"id":12,"actual_scaled":0,"corank_primitive":[0,0,0,-2,0,135,0,-1220,0,3457,0,-3810,0,1440]}
+{"id":13,"actual_scaled":0,"corank_primitive":[0,0,0,0,0,-11,0,13,0,158,0,-328,0,168]}
+{"id":14,"actual_scaled":0,"corank_primitive":[0,-8,0,128,0,-2,0,-5404,0,17148,0,-18720,0,6858]}
+{"id":15,"actual_scaled":0,"corank_primitive":[0,763,0,-28533,0,251024,0,-858938,0,1364288,0,-1017900,0,289296]}
+{"id":16,"actual_scaled":0,"corank_primitive":[0,0,0,0,0,0,0,-15,0,117,0,-198,0,96]}
+{"id":17,"actual_scaled":0,"corank_primitive":[0,0,0,0,0,-2,0,-11,0,116,0,-199,0,96]}
+{"id":18,"actual_scaled":0,"corank_primitive":[0,0,0,0,0,8,0,-215,0,823,0,-1048,0,432]}
+{"id":19,"actual_scaled":0,"corank_primitive":[0,0,0,0,0,2,0,-42,0,209,0,-313,0,144]}
+{"id":20,"actual_scaled":0,"corank_primitive":[0,0,0,0,0,0,0,5,0,10,0,-41,0,26]}
+{"id":21,"actual_scaled":0,"corank_primitive":[0,2467,0,-51817,0,353183,0,-1063419,0,1572766,0,-1123932,0,310752]}
+{"id":22,"actual_scaled":0,"corank_primitive":[0,117644,0,-1827932,0,9484892,0,-22933692,0,28477672,0,-17660280,0,4341696]}
+{"n":13,"tested":23,"failed":6,"examples":[{"id":0,"actual_scaled":0,"candidate_scaled":-5796528128,"corank_log_linear":353792,"word":[12,0,12,1,2,3,4,5,6,7,8,9,10,11,0,1,2,3,4,5,6,7,8,9,10,11]},{"id":1,"actual_scaled":0,"candidate_scaled":-366481506304,"corank_log_linear":22368256,"word":[0,1,2,3,4,5,6,7,8,9,10,11,12,0,1,2,3,4,5,6,7,8,9,10,11,12]},{"id":14,"actual_scaled":0,"candidate_scaled":131072,"corank_log_linear":-8,"word":[11,8,11,0,10,5,9,1,8,10,4,9,5,2,4,12,2,7,6,1,3,6,0,12,3,7]},{"id":15,"actual_scaled":0,"candidate_scaled":-12500992,"corank_log_linear":763,"word":[5,10,0,4,7,11,0,9,3,11,6,5,2,1,8,10,9,12,1,6,12,2,7,3,4,8]},{"id":21,"actual_scaled":0,"candidate_scaled":-40419328,"corank_log_linear":2467,"word":[4,2,11,4,5,10,1,11,6,8,12,2,9,0,7,3,1,9,3,6,5,0,8,10,7,12]},{"id":22,"actual_scaled":0,"candidate_scaled":-1927479296,"corank_log_linear":117644,"word":[11,6,12,2,8,4,1,9,7,6,12,0,10,8,3,1,11,7,5,0,10,9,5,4,2,3]}],"formula":"F_(2m+1)=-2^(-m-1)*[N]log_*(N^corank A)"}

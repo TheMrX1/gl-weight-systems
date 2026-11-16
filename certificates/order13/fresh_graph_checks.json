@@ -1,0 +1,6 @@
+{
+  "passed": true,
+  "direct_polynomial_triples_recomputed": 23,
+  "spin_values_per_graph": 17,
+  "Q_P_exact_coefficient_comparisons": true
+}

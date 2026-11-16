@@ -1,0 +1,28 @@
+{
+  "mutants11": true,
+  "ordinary_terms": 521,
+  "primitive_terms": 138,
+  "difference_terms": 27,
+  "primitive_certificates": {
+    "11": {
+      "diagrams": 18,
+      "exact_value": "-3853/16342"
+    },
+    "12": {
+      "diagrams": 18,
+      "exact_value": "3853/32684"
+    },
+    "13": {
+      "diagrams": 23,
+      "exact_value": "-584516618797266710299103168/315656869633392158362337"
+    }
+  },
+  "fresh_sl2_polynomials": 82,
+  "K11_terms": 587,
+  "mutants14": true,
+  "passed": true,
+  "independent_matrix_checks": 184,
+  "fresh_graph_polynomial_triples": 23,
+  "fresh_K11_matrix_checks": 12,
+  "fresh_graph9_reconstruction": true
+}

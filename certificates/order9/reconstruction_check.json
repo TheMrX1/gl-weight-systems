@@ -1,0 +1,6 @@
+{
+  "passed": true,
+  "relations": 3300,
+  "surviving_circle_graphs": 5006,
+  "entries_and_relations_identical_to_published_certificate": true
+}

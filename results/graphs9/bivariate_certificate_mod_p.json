@@ -1,0 +1,118 @@
+{
+  "prime": 1000000007,
+  "normalization": "X=N^(-9)*W(C_j=x*N^(j-1))",
+  "entries": 5006,
+  "nonzero_coefficients_mod_p": [
+    {
+      "genus": 1,
+      "x_degree": 1,
+      "coefficient_mod_p": 499999720,
+      "symmetric_representative": 499999720
+    },
+    {
+      "genus": 1,
+      "x_degree": 2,
+      "coefficient_mod_p": 500000341,
+      "symmetric_representative": -499999666
+    },
+    {
+      "genus": 1,
+      "x_degree": 3,
+      "coefficient_mod_p": 999999953,
+      "symmetric_representative": -54
+    },
+    {
+      "genus": 2,
+      "x_degree": 1,
+      "coefficient_mod_p": 500001548,
+      "symmetric_representative": -499998459
+    },
+    {
+      "genus": 2,
+      "x_degree": 2,
+      "coefficient_mod_p": 499998065,
+      "symmetric_representative": 499998065
+    },
+    {
+      "genus": 2,
+      "x_degree": 3,
+      "coefficient_mod_p": 313,
+      "symmetric_representative": 313
+    },
+    {
+      "genus": 2,
+      "x_degree": 4,
+      "coefficient_mod_p": 81,
+      "symmetric_representative": 81
+    },
+    {
+      "genus": 3,
+      "x_degree": 1,
+      "coefficient_mod_p": 999999109,
+      "symmetric_representative": -898
+    },
+    {
+      "genus": 3,
+      "x_degree": 2,
+      "coefficient_mod_p": 500002327,
+      "symmetric_representative": -499997680
+    },
+    {
+      "genus": 3,
+      "x_degree": 3,
+      "coefficient_mod_p": 999998483,
+      "symmetric_representative": -1524
+    },
+    {
+      "genus": 3,
+      "x_degree": 4,
+      "coefficient_mod_p": 500000345,
+      "symmetric_representative": -499999662
+    },
+    {
+      "genus": 3,
+      "x_degree": 5,
+      "coefficient_mod_p": 999999764,
+      "symmetric_representative": -243
+    },
+    {
+      "genus": 4,
+      "x_degree": 2,
+      "coefficient_mod_p": 898,
+      "symmetric_representative": 898
+    },
+    {
+      "genus": 4,
+      "x_degree": 3,
+      "coefficient_mod_p": 999996139,
+      "symmetric_representative": -3868
+    },
+    {
+      "genus": 4,
+      "x_degree": 4,
+      "coefficient_mod_p": 3746,
+      "symmetric_representative": 3746
+    },
+    {
+      "genus": 4,
+      "x_degree": 5,
+      "coefficient_mod_p": 999999015,
+      "symmetric_representative": -992
+    },
+    {
+      "genus": 4,
+      "x_degree": 6,
+      "coefficient_mod_p": 216,
+      "symmetric_representative": 216
+    }
+  ],
+  "coefficient_status": "Nonzero residues are rigorous nonvanishing witnesses; zero residues alone do not prove exact vanishing.",
+  "interpolation_bounds": "degree_x<=18 by PBW filtration; W odd degree_N<=9 by prechromatic theorem.",
+  "checks": {
+    "independent_sum": true,
+    "five_x19_holdouts": true,
+    "ten_N6_holdouts": true,
+    "chromatic_part_zero_mod_p": true,
+    "old_exact_x4_coefficients": true
+  }
+}

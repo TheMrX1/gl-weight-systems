@@ -159,7 +159,7 @@ def main():
         'limitations':'Does not recompute author sl2 polynomials, canonical 5006-term expansion, or rectangular gl weights on the certificate.',
         'elapsed_seconds':time.monotonic()-started,
     }
-    (HERE/'chromatic_report.json').write_text(json.dumps(output,indent=2)+'\n')
+    (HERE.parent/'results/graphs9/chromatic_report.json').write_text(json.dumps(output,indent=2)+'\n')
     print(json.dumps(output,indent=2))
 
 

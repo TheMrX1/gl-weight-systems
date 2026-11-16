@@ -1,0 +1,406 @@
+{
+  "cpp/include/chord/chord_diagram.hpp": {
+    "source": "cpp/include/chord/chord_diagram.hpp",
+    "description": "Интерфейсы хордовых диаграмм и универсального gl-веса"
+  },
+  "cpp/include/chord/gl_weight.hpp": {
+    "source": "исследование - 2/исследование - 3/include/chord/gl_weight.hpp",
+    "description": "Интерфейс gl-веса с 61-битными простыми модулями"
+  },
+  "cpp/include/chord/symbolic_gl.hpp": {
+    "source": "cpp/include/chord/symbolic_gl.hpp",
+    "description": "Интерфейсы хордовых диаграмм и универсального gl-веса"
+  },
+  "cpp/src/chord_diagram.cpp": {
+    "source": "cpp/src/chord_diagram.cpp",
+    "description": "Канонизация диаграмм, мутации и графы пересечений"
+  },
+  "cpp/src/gl_weight.cpp": {
+    "source": "cpp/src/gl_weight.cpp",
+    "description": "Рекурсия gl-веса в трёх конечных полях"
+  },
+  "cpp/src/symbolic_gl.cpp": {
+    "source": "cpp/src/symbolic_gl.cpp",
+    "description": "Точный символьный gl-вес с контролем переполнения"
+  },
+  "cpp/apps/evaluate_word.cpp": {
+    "source": "cpp/apps/evaluate_word.cpp",
+    "description": "Три численные подстановки для введённой диаграммы"
+  },
+  "cpp/apps/symbolic_witness.cpp": {
+    "source": "cpp/apps/symbolic_witness.cpp",
+    "description": "Полный многочлен для хордового слова"
+  },
+  "cpp/apps/audit_direct_gl4.cpp": {
+    "source": "cpp/apps/audit_direct_gl4.cpp",
+    "description": "Независимая свёртка матриц представления (2,1)"
+  },
+  "cpp/apps/audit_permutations.cpp": {
+    "source": "cpp/apps/audit_permutations.cpp",
+    "description": "Проверка рекурсии на произвольных перестановках"
+  },
+  "cpp/apps/gl_polynomial.cpp": {
+    "source": "исследование - 2/src/gl_polynomial.cpp",
+    "description": "Обычный и примитивный gl-многочлены одной диаграммы"
+  },
+  "cpp/apps/primitive_gl.cpp": {
+    "source": "исследование - 2/src/primitive.cpp",
+    "description": "Все моменты и примитивные gl-веса по подмножествам"
+  },
+  "cpp/apps/symbolic_compressed.cpp": {
+    "source": "исследование - 2/src/symbolic_interned_main.cpp",
+    "description": "Сохранение и раскрытие сжатого графа вычислений"
+  },
+  "cpp/src/symbolic_gl_compressed_rank.cpp": {
+    "source": "исследование - 2/src/symbolic_gl_compressed_rank.cpp",
+    "description": "Сжатое хранение символьных многочленов для K11"
+  },
+  "cpp/apps/representation_weights.cpp": {
+    "source": "исследование - 2/rectangular_representations/representation_weights.cpp",
+    "description": "Центральные характеры по диаграмме Юнга и подстановка в многочлен"
+  },
+  "cpp/apps/hook_difference.cpp": {
+    "source": "исследование - 2/исследование - 3/hooks/hook_difference.cpp",
+    "description": "Формула разности для произвольного крюка"
+  },
+  "cpp/include/sl2_exact.hpp": {
+    "source": "исследование - 2/исследование - 3/primitive_coefficients/sl2_exact.hpp",
+    "description": "Целочисленная рекурсия sl(2) и примитивная проекция"
+  },
+  "cpp/apps/sl2_word_batch.cpp": {
+    "source": "исследование - 2/исследование - 3/primitive_coefficients/word_batch.cpp",
+    "description": "Полные примитивные sl(2)-полиномы по списку слов"
+  },
+  "cpp/apps/sl2_primitive.cpp": {
+    "source": "исследование - 2/исследование - 3/primitive_coefficients/primitive_certificate.cpp",
+    "description": "Обычный и примитивный sl(2)-веса и добавление листа"
+  },
+  "cpp/apps/graph_corank.cpp": {
+    "source": "исследование - 2/исследование - 3/primitive_coefficients/order13/corank.cpp",
+    "description": "Полный корранговый графовый полином"
+  },
+  "cpp/apps/graph_diagonal.cpp": {
+    "source": "исследование - 2/исследование - 3/primitive_coefficients/order13/orthogonal.cpp",
+    "description": "Полный графовый полином с диагональными возмущениями"
+  },
+  "cpp/apps/graph_pairs.cpp": {
+    "source": "исследование - 2/исследование - 3/primitive_coefficients/order13/spin_full.cpp",
+    "description": "Полный графовый полином раскрасок парами цветов"
+  },
+  "cpp/apps/sl2_direct_matrix.cpp": {
+    "source": "исследование - 2/исследование - 3/primitive_coefficients/order13/direct_matrix.cpp",
+    "description": "Прямая матричная проверка sl(2) без хордовой рекурсии"
+  },
+  "cpp/apps/mutation_tensor.cpp": {
+    "source": "исследование - 2/mutation_hypothesis/full_tensor_audit.cpp",
+    "description": "Полная тензорная свёртка четырёх мутаций"
+  },
+  "cpp/apps/chromatic.cpp": {
+    "source": "исследование - 2/исследование - 3/chromatic.cpp",
+    "description": "Хроматический и примитивный хроматический полиномы"
+  },
+  "cpp/apps/rectangle_certificate.cpp": {
+    "source": "исследование - 2/исследование - 3/rectangle_probe.cpp",
+    "description": "Прямоугольная специализация 9-хордового сертификата"
+  },
+  "results/mutants11/difference.json": {
+    "source": "исследование - 2/исследование - 3/hooks/universal_delta.json",
+    "description": "Точная разность универсальных gl-весов: 27 мономов"
+  },
+  "results/mutants11/D_ordinary.json": {
+    "source": "data/symbolic_witness/D.json",
+    "description": "Полный обычный gl-многочлен: 521 моном"
+  },
+  "results/mutants11/D_prime_ordinary.json": {
+    "source": "data/symbolic_witness/D_prime.json",
+    "description": "Полный обычный gl-многочлен: 521 моном"
+  },
+  "results/mutants11/D_primitive.json": {
+    "source": "исследование - 2/results/exact_verified/D_primitive.json",
+    "description": "Полные примитивные многочлены и общая разложимая поправка"
+  },
+  "results/mutants11/D_prime_primitive.json": {
+    "source": "исследование - 2/results/exact_verified/D_prime_primitive.json",
+    "description": "Полные примитивные многочлены и общая разложимая поправка"
+  },
+  "results/mutants11/primitive_difference.json": {
+    "source": "исследование - 2/results/exact_verified/primitive_difference.json",
+    "description": "Полные примитивные многочлены и общая разложимая поправка"
+  },
+  "results/mutants11/D_decomposable.json": {
+    "source": "исследование - 2/results/exact_verified/D_decomposable.json",
+    "description": "Полные примитивные многочлены и общая разложимая поправка"
+  },
+  "results/mutants11/words.json": {
+    "source": "исследование - 2/results/four_mutations/words.json",
+    "description": "Четыре мутации порядка 11 и их точные многочлены"
+  },
+  "results/mutants11/D_double_prime_ordinary.json": {
+    "source": "исследование - 2/results/four_mutations/D_double_prime_ordinary.json",
+    "description": "Четыре мутации порядка 11 и их точные многочлены"
+  },
+  "results/mutants11/D_triple_prime_ordinary.json": {
+    "source": "исследование - 2/results/four_mutations/D_triple_prime_ordinary.json",
+    "description": "Четыре мутации порядка 11 и их точные многочлены"
+  },
+  "results/mutants11/D_double_prime_primitive.json": {
+    "source": "исследование - 2/results/four_mutations/D_double_prime_primitive.json",
+    "description": "Четыре мутации порядка 11 и их точные многочлены"
+  },
+  "results/mutants11/D_triple_prime_primitive.json": {
+    "source": "исследование - 2/results/four_mutations/D_triple_prime_primitive.json",
+    "description": "Четыре мутации порядка 11 и их точные многочлены"
+  },
+  "results/mutants14/certificate.json": {
+    "source": "исследование - 2/mutation_hypothesis/orbit14_certificate.json",
+    "description": "Четыре попарно различных веса в порядке 14"
+  },
+  "results/K11/F1.json": {
+    "source": "исследование - 2/results/complete_K11_centered/F1.json",
+    "description": "Полные диаграммы K1–K11 и бесследовые вспомогательные полиномы"
+  },
+  "results/K11/F10.json": {
+    "source": "исследование - 2/results/complete_K11_centered/F10.json",
+    "description": "Полные диаграммы K1–K11 и бесследовые вспомогательные полиномы"
+  },
+  "results/K11/F11.json": {
+    "source": "исследование - 2/results/complete_K11_centered/F11.json",
+    "description": "Полные диаграммы K1–K11 и бесследовые вспомогательные полиномы"
+  },
+  "results/K11/F2.json": {
+    "source": "исследование - 2/results/complete_K11_centered/F2.json",
+    "description": "Полные диаграммы K1–K11 и бесследовые вспомогательные полиномы"
+  },
+  "results/K11/F3.json": {
+    "source": "исследование - 2/results/complete_K11_centered/F3.json",
+    "description": "Полные диаграммы K1–K11 и бесследовые вспомогательные полиномы"
+  },
+  "results/K11/F4.json": {
+    "source": "исследование - 2/results/complete_K11_centered/F4.json",
+    "description": "Полные диаграммы K1–K11 и бесследовые вспомогательные полиномы"
+  },
+  "results/K11/F5.json": {
+    "source": "исследование - 2/results/complete_K11_centered/F5.json",
+    "description": "Полные диаграммы K1–K11 и бесследовые вспомогательные полиномы"
+  },
+  "results/K11/F6.json": {
+    "source": "исследование - 2/results/complete_K11_centered/F6.json",
+    "description": "Полные диаграммы K1–K11 и бесследовые вспомогательные полиномы"
+  },
+  "results/K11/F7.json": {
+    "source": "исследование - 2/results/complete_K11_centered/F7.json",
+    "description": "Полные диаграммы K1–K11 и бесследовые вспомогательные полиномы"
+  },
+  "results/K11/F8.json": {
+    "source": "исследование - 2/results/complete_K11_centered/F8.json",
+    "description": "Полные диаграммы K1–K11 и бесследовые вспомогательные полиномы"
+  },
+  "results/K11/F9.json": {
+    "source": "исследование - 2/results/complete_K11_centered/F9.json",
+    "description": "Полные диаграммы K1–K11 и бесследовые вспомогательные полиномы"
+  },
+  "results/K11/K1.json": {
+    "source": "исследование - 2/results/complete_K11_centered/K1.json",
+    "description": "Полные диаграммы K1–K11 и бесследовые вспомогательные полиномы"
+  },
+  "results/K11/K10.json": {
+    "source": "исследование - 2/results/complete_K11_centered/K10.json",
+    "description": "Полные диаграммы K1–K11 и бесследовые вспомогательные полиномы"
+  },
+  "results/K11/K11.json": {
+    "source": "исследование - 2/results/complete_K11_centered/K11.json",
+    "description": "Полные диаграммы K1–K11 и бесследовые вспомогательные полиномы"
+  },
+  "results/K11/K11_numeric.json": {
+    "source": "исследование - 2/results/complete_K11_centered/K11_numeric.json",
+    "description": "Полные диаграммы K1–K11 и бесследовые вспомогательные полиномы"
+  },
+  "results/K11/K2.json": {
+    "source": "исследование - 2/results/complete_K11_centered/K2.json",
+    "description": "Полные диаграммы K1–K11 и бесследовые вспомогательные полиномы"
+  },
+  "results/K11/K3.json": {
+    "source": "исследование - 2/results/complete_K11_centered/K3.json",
+    "description": "Полные диаграммы K1–K11 и бесследовые вспомогательные полиномы"
+  },
+  "results/K11/K4.json": {
+    "source": "исследование - 2/results/complete_K11_centered/K4.json",
+    "description": "Полные диаграммы K1–K11 и бесследовые вспомогательные полиномы"
+  },
+  "results/K11/K5.json": {
+    "source": "исследование - 2/results/complete_K11_centered/K5.json",
+    "description": "Полные диаграммы K1–K11 и бесследовые вспомогательные полиномы"
+  },
+  "results/K11/K6.json": {
+    "source": "исследование - 2/results/complete_K11_centered/K6.json",
+    "description": "Полные диаграммы K1–K11 и бесследовые вспомогательные полиномы"
+  },
+  "results/K11/K7.json": {
+    "source": "исследование - 2/results/complete_K11_centered/K7.json",
+    "description": "Полные диаграммы K1–K11 и бесследовые вспомогательные полиномы"
+  },
+  "results/K11/K8.json": {
+    "source": "исследование - 2/results/complete_K11_centered/K8.json",
+    "description": "Полные диаграммы K1–K11 и бесследовые вспомогательные полиномы"
+  },
+  "results/K11/K9.json": {
+    "source": "исследование - 2/results/complete_K11_centered/K9.json",
+    "description": "Полные диаграммы K1–K11 и бесследовые вспомогательные полиномы"
+  },
+  "results/K11/K11.txt": {
+    "source": "исследование - 2/results/complete_K11_centered/K11.txt",
+    "description": "Полный универсальный gl-многочлен K11: 587 мономов"
+  },
+  "results/hooks/two_atom_identity_certificate.json": {
+    "source": "исследование - 2/исследование - 3/hooks/two_atom_identity_certificate.json",
+    "description": "Точные сертификаты формулы для крюков и малых рангов"
+  },
+  "results/hooks/small_rank_certificate.json": {
+    "source": "исследование - 2/исследование - 3/hooks/small_rank_certificate.json",
+    "description": "Точные сертификаты формулы для крюков и малых рангов"
+  },
+  "results/hooks/symbolic_hook_report.json": {
+    "source": "исследование - 2/исследование - 3/hooks/symbolic_hook_report.json",
+    "description": "Точные сертификаты формулы для крюков и малых рангов"
+  },
+  "scripts/check_sparse_identity.py": {
+    "source": "исследование - 2/исследование - 3/hooks/check_sparse_identity.py",
+    "description": "Проверка коэффициентов крюковой формулы без компьютерной алгебры"
+  },
+  "scripts/check_small_rank.py": {
+    "source": "исследование - 2/исследование - 3/hooks/check_small_rank.py",
+    "description": "Проверка коэффициентов крюковой формулы без компьютерной алгебры"
+  },
+  "results/hooks/universal_delta.json": {
+    "source": "исследование - 2/исследование - 3/hooks/universal_delta.json",
+    "description": "Исходная универсальная разность для крюковой формулы"
+  },
+  "scripts/reconstruct_K11.py": {
+    "source": "исследование - 2/complete_centered.py",
+    "description": "Восстановление полного K11 из sl-части и центра"
+  },
+  "certificates/order11/certificate.json": {
+    "source": "исследование - 2/исследование - 3/primitive_coefficients/candidates_agent/eighteen_graph_certificate.json",
+    "description": "18 диаграмм и точный сертификат непродолжимости в порядке 11"
+  },
+  "certificates/order12/certificate.json": {
+    "source": "исследование - 2/исследование - 3/primitive_coefficients/order12/eighteen_graph_certificate_order12.json",
+    "description": "Сертификат порядка 12, полученный добавлением листа"
+  },
+  "certificates/order13/certificate.json": {
+    "source": "исследование - 2/исследование - 3/primitive_coefficients/order13/certificate.json",
+    "description": "23 диаграммы и точный сертификат непродолжимости в порядке 13"
+  },
+  "certificates/order13/certificate_input.json": {
+    "source": "исследование - 2/исследование - 3/primitive_coefficients/order13/certificate_input.json",
+    "description": "23 диаграммы и точный сертификат непродолжимости в порядке 13"
+  },
+  "certificates/order13/certificate_system.json": {
+    "source": "исследование - 2/исследование - 3/primitive_coefficients/order13/certificate_system.json",
+    "description": "23 диаграммы и точный сертификат непродолжимости в порядке 13"
+  },
+  "certificates/order13/certificate_corank.ndjson": {
+    "source": "исследование - 2/исследование - 3/primitive_coefficients/order13/certificate_corank.ndjson",
+    "description": "23 диаграммы и точный сертификат непродолжимости в порядке 13"
+  },
+  "certificates/order13/certificate_orthogonal.ndjson": {
+    "source": "исследование - 2/исследование - 3/primitive_coefficients/order13/certificate_orthogonal.ndjson",
+    "description": "23 диаграммы и точный сертификат непродолжимости в порядке 13"
+  },
+  "certificates/order13/certificate_spin.ndjson": {
+    "source": "исследование - 2/исследование - 3/primitive_coefficients/order13/certificate_spin.ndjson",
+    "description": "23 диаграммы и точный сертификат непродолжимости в порядке 13"
+  },
+  "certificates/order13/direct_matrix_verification.json": {
+    "source": "исследование - 2/исследование - 3/primitive_coefficients/order13/direct_matrix_verification.json",
+    "description": "23 диаграммы и точный сертификат непродолжимости в порядке 13"
+  },
+  "certificates/order13/order14_leaf_checks.json": {
+    "source": "исследование - 2/исследование - 3/primitive_coefficients/order13/order14_leaf_checks.json",
+    "description": "23 диаграммы и точный сертификат непродолжимости в порядке 13"
+  },
+  "certificates/order9/certificate.json": {
+    "source": "исследование - 2/исследование - 3/certificate_expanded.json",
+    "description": "Авторский 9-вершинный сертификат в развёрнутом формате"
+  },
+  "results/graphs9/rectangular_certificate_report.json": {
+    "source": "исследование - 2/исследование - 3/rectangular_certificate_report.json",
+    "description": "Точные графовые проверки и прямоугольные специализации сертификата"
+  },
+  "results/graphs9/chromatic_report.json": {
+    "source": "исследование - 2/исследование - 3/chromatic_report.json",
+    "description": "Точные графовые проверки и прямоугольные специализации сертификата"
+  },
+  "results/graphs9/prime_certificates.json": {
+    "source": "исследование - 2/исследование - 3/prime_certificates.json",
+    "description": "Точные графовые проверки и прямоугольные специализации сертификата"
+  },
+  "results/graphs9/chromatic_coefficients_mod_p.json": {
+    "source": "исследование - 2/исследование - 3/coefficient_extensions/bivariate_certificate_mod_p.json",
+    "description": "Ненулевые внутренние коэффициенты хроматической подстановки"
+  },
+  "cpp/include/chord/sl4_share_detector.hpp": {
+    "source": "cpp/include/chord/sl4_share_detector.hpp",
+    "description": "Интерфейс тензорного детектора хордовых долей"
+  },
+  "cpp/src/sl4_share_detector.cpp": {
+    "source": "cpp/src/sl4_share_detector.cpp",
+    "description": "Операторы долей в представлении (2,1) и разреженная свёртка"
+  },
+  "cpp/apps/verify_4_7_witness.cpp": {
+    "source": "cpp/apps/verify_4_7_witness.cpp",
+    "description": "Воспроизведение различающей пары мутацией 4+7"
+  },
+  "cpp/apps/tensor_pair_search.cpp": {
+    "source": "cpp/apps/tensor_pair_search.cpp",
+    "description": "Поиск мутантов через заранее вычисленные блоки долей"
+  },
+  "certificates/order9/source/cert.9.csv": {
+    "source": "исследование - 2/материалы/данные/sl2-cert/cert.9.csv",
+    "description": "Исходные авторские данные графового 4T-сертификата и ссылка на источник"
+  },
+  "certificates/order9/source/cert.9.int.csv": {
+    "source": "исследование - 2/материалы/данные/sl2-cert/cert.9.int.csv",
+    "description": "Исходные авторские данные графового 4T-сертификата и ссылка на источник"
+  },
+  "certificates/order9/source/SOURCE.json": {
+    "source": "исследование - 2/материалы/данные/sl2-cert/SOURCE.json",
+    "description": "Исходные авторские данные графового 4T-сертификата и ссылка на источник"
+  },
+  "certificates/order9/source/readme.md": {
+    "source": "исследование - 2/материалы/данные/sl2-cert/readme.md",
+    "description": "Исходные авторские данные графового 4T-сертификата и ссылка на источник"
+  },
+  "scripts/check_chromatic.py": {
+    "source": "исследование - 2/исследование - 3/check_chromatic.py",
+    "description": "Проверка каждого графового 4T и хроматического полинома"
+  },
+  "scripts/reconstruct_graph_certificate.py": {
+    "source": "исследование - 2/исследование - 3/reconstruct_certificate.py",
+    "description": "Восстановление 3300 авторских 4T по точным изоморфизмам графов"
+  },
+  "scripts/matrix_complete_graph.py": {
+    "source": "исследование - 2/matrix_complete_graph.py",
+    "description": "Независимая точная матричная формула для полных диаграмм"
+  },
+  "results/K11/matrix_verification.json": {
+    "source": "исследование - 2/results/complete_K11_centered/verification.json",
+    "description": "Двенадцать независимых точных матричных проверок полного K11"
+  },
+  "cpp/apps/chromatic_grid.cpp": {
+    "source": "исследование - 2/исследование - 3/coefficient_extensions/grid_probe.cpp",
+    "description": "110 одновременных подстановок хроматической сетки"
+  },
+  "results/graphs9/grid_values.ndjson": {
+    "source": "исследование - 2/исследование - 3/coefficient_extensions/grid_values.ndjson",
+    "description": "Все 5006 значений в 110 точках для двумерного восстановления"
+  },
+  "scripts/build_chromatic_grid.py": {
+    "source": "исследование - 2/исследование - 3/coefficient_extensions/build_grid.py",
+    "description": "Сборка 110-канального вычислителя без изменения основной рекурсии"
+  },
+  "scripts/interpolate_chromatic_grid.py": {
+    "source": "исследование - 2/исследование - 3/coefficient_extensions/interpolate_grid.py",
+    "description": "Точная интерполяция хроматической сетки в конечном поле"
+  }
+}

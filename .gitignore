@@ -1,0 +1,11 @@
+/build*/
+/.venv/
+/tools/
+/tmp/
+__pycache__/
+.DS_Store
+*.aux
+*.log
+*.out
+*.toc
+*.synctex.gz

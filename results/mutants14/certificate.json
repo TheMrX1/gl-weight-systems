@@ -1,0 +1,676 @@
+{
+  "order": 14,
+  "share_size": 7,
+  "complement_size": 7,
+  "blocks": {
+    "A": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      1,
+      5,
+      0,
+      4,
+      6
+    ],
+    "B": [
+      13,
+      11,
+      12,
+      9,
+      7,
+      8,
+      11,
+      7,
+      10,
+      8
+    ],
+    "C": [
+      3,
+      5,
+      6,
+      2
+    ],
+    "E": [
+      10,
+      13,
+      12,
+      9
+    ]
+  },
+  "word_order": [
+    "identity",
+    "R",
+    "S",
+    "RS"
+  ],
+  "words": [
+    [
+      0,
+      1,
+      2,
+      3,
+      4,
+      1,
+      5,
+      0,
+      4,
+      6,
+      13,
+      11,
+      12,
+      9,
+      7,
+      8,
+      11,
+      7,
+      10,
+      8,
+      3,
+      5,
+      6,
+      2,
+      10,
+      13,
+      12,
+      9
+    ],
+    [
+      6,
+      4,
+      0,
+      5,
+      1,
+      4,
+      3,
+      2,
+      1,
+      0,
+      13,
+      11,
+      12,
+      9,
+      7,
+      8,
+      11,
+      7,
+      10,
+      8,
+      2,
+      6,
+      5,
+      3,
+      10,
+      13,
+      12,
+      9
+    ],
+    [
+      3,
+      5,
+      6,
+      2,
+      13,
+      11,
+      12,
+      9,
+      7,
+      8,
+      11,
+      7,
+      10,
+      8,
+      0,
+      1,
+      2,
+      3,
+      4,
+      1,
+      5,
+      0,
+      4,
+      6,
+      10,
+      13,
+      12,
+      9
+    ],
+    [
+      2,
+      6,
+      5,
+      3,
+      13,
+      11,
+      12,
+      9,
+      7,
+      8,
+      11,
+      7,
+      10,
+      8,
+      6,
+      4,
+      0,
+      5,
+      1,
+      4,
+      3,
+      2,
+      1,
+      0,
+      10,
+      13,
+      12,
+      9
+    ]
+  ],
+  "same_labeled_intersection_graph": true,
+  "pairwise_nonisomorphic_even_with_reflection": true,
+  "actual_representation": "gl4 on kernel(Sym^2(C4) tensor C4 -> Sym^3(C4))",
+  "dimension": 20,
+  "highest_weight": [
+    2,
+    1,
+    0,
+    0
+  ],
+  "all_four_values_pairwise_distinct_in_each_field": true,
+  "exact_integer_weights": [
+    1111487173017,
+    1111489713177,
+    1111487850393,
+    1111485310233
+  ],
+  "exact_integer_traces": [
+    22229743460340,
+    22229794263540,
+    22229757007860,
+    22229706204660
+  ],
+  "rigorous_normalized_weight_absolute_bound": "19342813113834066795298816",
+  "rigorous_trace_absolute_bound": "386856262276681335905976320",
+  "CRT_modulus_product": "65406165517316394392672501485518800557",
+  "CRT_product_greater_than_twice_bound": true,
+  "full_channel_runs": [
+    {
+      "prime": 65521,
+      "N": 4,
+      "highest_weight": [
+        2,
+        1,
+        0,
+        0
+      ],
+      "dimension": 20,
+      "full_lowering_basis_rank": 400,
+      "operator_norm_pair_bound": 64,
+      "method": "independent full tensor-square decomposition and matrix-unit contraction",
+      "order": "identity,R,S,RS",
+      "values": [
+        2066,
+        52428,
+        24232,
+        39391
+      ],
+      "channels": [
+        {
+          "highest_weight": [
+            2,
+            2,
+            1,
+            1
+          ],
+          "dimension": 6,
+          "multiplicity": 1
+        },
+        {
+          "highest_weight": [
+            2,
+            2,
+            2,
+            0
+          ],
+          "dimension": 10,
+          "multiplicity": 1
+        },
+        {
+          "highest_weight": [
+            3,
+            1,
+            1,
+            1
+          ],
+          "dimension": 10,
+          "multiplicity": 1
+        },
+        {
+          "highest_weight": [
+            3,
+            2,
+            1,
+            0
+          ],
+          "dimension": 64,
+          "multiplicity": 2
+        },
+        {
+          "highest_weight": [
+            3,
+            3,
+            0,
+            0
+          ],
+          "dimension": 50,
+          "multiplicity": 1
+        },
+        {
+          "highest_weight": [
+            4,
+            1,
+            1,
+            0
+          ],
+          "dimension": 70,
+          "multiplicity": 1
+        },
+        {
+          "highest_weight": [
+            4,
+            2,
+            0,
+            0
+          ],
+          "dimension": 126,
+          "multiplicity": 1
+        }
+      ],
+      "seconds": 2.06252
+    },
+    {
+      "prime": 1000003,
+      "N": 4,
+      "highest_weight": [
+        2,
+        1,
+        0,
+        0
+      ],
+      "dimension": 20,
+      "full_lowering_basis_rank": 400,
+      "operator_norm_pair_bound": 64,
+      "method": "independent full tensor-square decomposition and matrix-unit contraction",
+      "order": "identity,R,S,RS",
+      "values": [
+        838568,
+        378719,
+        515941,
+        975790
+      ],
+      "channels": [
+        {
+          "highest_weight": [
+            2,
+            2,
+            1,
+            1
+          ],
+          "dimension": 6,
+          "multiplicity": 1
+        },
+        {
+          "highest_weight": [
+            2,
+            2,
+            2,
+            0
+          ],
+          "dimension": 10,
+          "multiplicity": 1
+        },
+        {
+          "highest_weight": [
+            3,
+            1,
+            1,
+            1
+          ],
+          "dimension": 10,
+          "multiplicity": 1
+        },
+        {
+          "highest_weight": [
+            3,
+            2,
+            1,
+            0
+          ],
+          "dimension": 64,
+          "multiplicity": 2
+        },
+        {
+          "highest_weight": [
+            3,
+            3,
+            0,
+            0
+          ],
+          "dimension": 50,
+          "multiplicity": 1
+        },
+        {
+          "highest_weight": [
+            4,
+            1,
+            1,
+            0
+          ],
+          "dimension": 70,
+          "multiplicity": 1
+        },
+        {
+          "highest_weight": [
+            4,
+            2,
+            0,
+            0
+          ],
+          "dimension": 126,
+          "multiplicity": 1
+        }
+      ],
+      "seconds": 2.02331
+    },
+    {
+      "prime": 1000000007,
+      "N": 4,
+      "highest_weight": [
+        2,
+        1,
+        0,
+        0
+      ],
+      "dimension": 20,
+      "full_lowering_basis_rank": 400,
+      "operator_norm_pair_bound": 64,
+      "method": "independent full tensor-square decomposition and matrix-unit contraction",
+      "order": "identity,R,S,RS",
+      "values": [
+        487165240,
+        489705400,
+        487842616,
+        485302456
+      ],
+      "channels": [
+        {
+          "highest_weight": [
+            2,
+            2,
+            1,
+            1
+          ],
+          "dimension": 6,
+          "multiplicity": 1
+        },
+        {
+          "highest_weight": [
+            2,
+            2,
+            2,
+            0
+          ],
+          "dimension": 10,
+          "multiplicity": 1
+        },
+        {
+          "highest_weight": [
+            3,
+            1,
+            1,
+            1
+          ],
+          "dimension": 10,
+          "multiplicity": 1
+        },
+        {
+          "highest_weight": [
+            3,
+            2,
+            1,
+            0
+          ],
+          "dimension": 64,
+          "multiplicity": 2
+        },
+        {
+          "highest_weight": [
+            3,
+            3,
+            0,
+            0
+          ],
+          "dimension": 50,
+          "multiplicity": 1
+        },
+        {
+          "highest_weight": [
+            4,
+            1,
+            1,
+            0
+          ],
+          "dimension": 70,
+          "multiplicity": 1
+        },
+        {
+          "highest_weight": [
+            4,
+            2,
+            0,
+            0
+          ],
+          "dimension": 126,
+          "multiplicity": 1
+        }
+      ],
+      "seconds": 1.97027
+    },
+    {
+      "prime": 1000000009,
+      "N": 4,
+      "highest_weight": [
+        2,
+        1,
+        0,
+        0
+      ],
+      "dimension": 20,
+      "full_lowering_basis_rank": 400,
+      "operator_norm_pair_bound": 64,
+      "method": "independent full tensor-square decomposition and matrix-unit contraction",
+      "order": "identity,R,S,RS",
+      "values": [
+        487163018,
+        489703178,
+        487840394,
+        485300234
+      ],
+      "channels": [
+        {
+          "highest_weight": [
+            2,
+            2,
+            1,
+            1
+          ],
+          "dimension": 6,
+          "multiplicity": 1
+        },
+        {
+          "highest_weight": [
+            2,
+            2,
+            2,
+            0
+          ],
+          "dimension": 10,
+          "multiplicity": 1
+        },
+        {
+          "highest_weight": [
+            3,
+            1,
+            1,
+            1
+          ],
+          "dimension": 10,
+          "multiplicity": 1
+        },
+        {
+          "highest_weight": [
+            3,
+            2,
+            1,
+            0
+          ],
+          "dimension": 64,
+          "multiplicity": 2
+        },
+        {
+          "highest_weight": [
+            3,
+            3,
+            0,
+            0
+          ],
+          "dimension": 50,
+          "multiplicity": 1
+        },
+        {
+          "highest_weight": [
+            4,
+            1,
+            1,
+            0
+          ],
+          "dimension": 70,
+          "multiplicity": 1
+        },
+        {
+          "highest_weight": [
+            4,
+            2,
+            0,
+            0
+          ],
+          "dimension": 126,
+          "multiplicity": 1
+        }
+      ],
+      "seconds": 2.00881
+    },
+    {
+      "prime": 998244353,
+      "N": 4,
+      "highest_weight": [
+        2,
+        1,
+        0,
+        0
+      ],
+      "dimension": 20,
+      "full_lowering_basis_rank": 400,
+      "operator_norm_pair_bound": 64,
+      "method": "independent full tensor-square decomposition and matrix-unit contraction",
+      "order": "identity,R,S,RS",
+      "values": [
+        441208128,
+        443748288,
+        441885504,
+        439345344
+      ],
+      "channels": [
+        {
+          "highest_weight": [
+            2,
+            2,
+            1,
+            1
+          ],
+          "dimension": 6,
+          "multiplicity": 1
+        },
+        {
+          "highest_weight": [
+            2,
+            2,
+            2,
+            0
+          ],
+          "dimension": 10,
+          "multiplicity": 1
+        },
+        {
+          "highest_weight": [
+            3,
+            1,
+            1,
+            1
+          ],
+          "dimension": 10,
+          "multiplicity": 1
+        },
+        {
+          "highest_weight": [
+            3,
+            2,
+            1,
+            0
+          ],
+          "dimension": 64,
+          "multiplicity": 2
+        },
+        {
+          "highest_weight": [
+            3,
+            3,
+            0,
+            0
+          ],
+          "dimension": 50,
+          "multiplicity": 1
+        },
+        {
+          "highest_weight": [
+            4,
+            1,
+            1,
+            0
+          ],
+          "dimension": 70,
+          "multiplicity": 1
+        },
+        {
+          "highest_weight": [
+            4,
+            2,
+            0,
+            0
+          ],
+          "dimension": 126,
+          "multiplicity": 1
+        }
+      ],
+      "seconds": 1.98375
+    }
+  ],
+  "regression_report": "full_tensor_regression.json",
+  "source_sha256": {
+    "full_tensor_audit.cpp": "94c111e9071e2cc9f3b20e4ba0d37bd5f41a94836f4a46b495b2c5078b37514f",
+    "audit_direct_gl4.cpp": "59cd4c813ef0d7ce94d3efbe7ca93d5b5bd354d1af565daceaa886d3a5b5bb9d"
+  },
+  "claim": "A counterexample in order 14, not a claim of minimal order or a counterexample to an order-11-only version"
+}

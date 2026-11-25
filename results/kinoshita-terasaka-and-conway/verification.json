@@ -1,0 +1,59 @@
+{
+  "passed": true,
+  "coefficients_equal": true,
+  "difference_terms": 0,
+  "diagrams": {
+    "conway": {
+      "terms": 587,
+      "max_casimir_index": 10,
+      "sha256": "c037ad8ecc304831e6054e7be60eee4071d0ec761ede81756cc544ae13187ab4",
+      "prime_moduli": [
+        1000000007,
+        1000000009,
+        998244353
+      ],
+      "modular_values": [
+        540571933,
+        984135479,
+        833365552
+      ],
+      "gl4_matrix_weights": {
+        "hook": 3179190720,
+        "square": 338834363392
+      },
+      "checked_columns": [
+        0,
+        7
+      ],
+      "corank_over_GF2": 3
+    },
+    "kinoshita-terasaka": {
+      "terms": 587,
+      "max_casimir_index": 10,
+      "sha256": "c037ad8ecc304831e6054e7be60eee4071d0ec761ede81756cc544ae13187ab4",
+      "prime_moduli": [
+        1000000007,
+        1000000009,
+        998244353
+      ],
+      "modular_values": [
+        540571933,
+        984135479,
+        833365552
+      ],
+      "gl4_matrix_weights": {
+        "hook": 3179190720,
+        "square": 338834363392
+      },
+      "checked_columns": [
+        0,
+        7
+      ],
+      "corank_over_GF2": 3
+    }
+  },
+  "additional_symbolic_comparisons": {
+    "conway-original-kernel.json": true,
+    "kt-shifted.json": true
+  }
+}

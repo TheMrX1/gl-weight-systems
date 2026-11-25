@@ -1,0 +1,6 @@
+{
+  "passed": true,
+  "checked_words": 55,
+  "maximum_order": 5,
+  "oracle": "python/raw_permutation_oracle.py"
+}
